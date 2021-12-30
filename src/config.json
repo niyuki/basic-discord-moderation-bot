@@ -1,0 +1,43 @@
+{
+    "token": "",
+    "prefix": ".",
+    "mongooseConnectionString": "",
+    "developer": ["730448609790787585"],
+    "commandlog": "",
+    "invitelog": "",
+    "guildId": "",
+    "ChatGuard": {
+        "logchannel": ""
+    },
+    "Welcome": {
+        "channel": "",
+        "role": ""
+    },
+    "Jail": {
+        "roles": ["",""],
+        "authorized": ""
+    },
+    "Stats": {
+        "Message":{
+            "ignoreChannels": [],
+            "Cooldown": 1
+        },
+        "Voice": {
+            "ignoreChannels": []
+        }
+    },
+    "ContextTimeouts": {
+        "BannedContentTimeout": "30m",
+        "WrongChannelTimeout": "15m",
+        "disturbChannelTimeout": "15m",
+        "provokingTimeout": "15m",
+        "blackmailTimeout": "3h",
+        "blackmailJail": "7d",
+        "disrespectTimeout": "3h",
+        "disrespectJail": "2w",
+        "hammers": {
+            "banRole": "",
+            "timeoutRole": ""
+        }
+    }
+}
